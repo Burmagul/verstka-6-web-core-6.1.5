@@ -4,7 +4,9 @@ console.log('answeText', ANSWER);
 
 import './scss/main.css';
 
-import  Swiper  from 'swiper';
+// import Swiper from 'swiper/swiper-bundle';
+import Swiper from 'swiper';
+
 
 // swiper
 const mySwiper = new Swiper(".mySwiper", {
