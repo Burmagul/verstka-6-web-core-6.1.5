@@ -1,0 +1,60 @@
+@import "./components/main__header";
+@import "./components/main__body";
+
+@import "./components/main__headerIpad";
+@import "./components/main__bodyIpad";
+
+@import "./components/main__headerDesktope-One";
+@import "./components/main__modalka1";
+@import "./components/main__modalka2";
+@import "./components/main__bodyDeskTope";
+
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+
+    body{
+      background-color: rgba(248, 248, 248, 1) !important;
+      width: 100%;
+      height: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+  
+@include main__header;
+@include main__body;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+
+  body{
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(248, 248, 248, 1) !important;
+
+
+@include main__headerIpad;
+@include main__bodyIpad;
+
+}
+}
+
+
+@media screen and (min-width: 1366px)  {
+  body {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(248, 248, 248, 1);
+    @include main__headerDesktope-One;
+    @include main__modalka1;
+    @include  main__modalka2;  
+    @include main__bodyDeskTope;
+  
+  }
+
+}
