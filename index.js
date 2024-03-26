@@ -1,6 +1,6 @@
 // тест
-const ANSWER = require('./module.js');  
-console.log('answeText', ANSWER);
+// const ANSWER = require('./module.js');  
+// console.log('answeText', ANSWER);
 
 import './scss/main.css';
 

@@ -1,2 +1,2 @@
-const ANSWER = 'это папка работает ?';
-export default ANSWER;
+// const ANSWER = 'это папка работает ?';
+// export default ANSWER;
