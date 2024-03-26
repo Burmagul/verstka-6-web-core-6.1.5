@@ -4,7 +4,7 @@ This project represents the markup for a website providing information and servi
 # Installation Instructions
  1. Clone the repository:
 
-  git clone 
+  git clone https://burmagul.github.io/verstka-6-web-core-6.1.5/
 
 2. Open the project in a text editor or integrated development environment.
 3. Open index.html in your web browser.
